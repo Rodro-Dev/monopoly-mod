@@ -1,4 +1,4 @@
-# 🎩 Monopoly Guy — Balatro Mod
+# Monopoly Guy — Balatro Mod
 
 <p align="center">
   <img src="assets/2x/joker_image.png" alt="Monopoly Guy Joker" width="180">
@@ -20,7 +20,7 @@
 
 ---
 
-## 🃏 The Joker
+## The Joker
 
 **Monopoly Guy** starts with a value of **$100**.
 
@@ -30,58 +30,42 @@ At the end of each round:
 2. Its value decreases by **$5**.
 3. Once it pays out its final **$5**, its value reaches **$0** and the Joker destroys itself.
 
-### 💰 Payout progression
+### Payout progression
 
 ```text
-$100 → $95 → $90 → $85 → ... → $10 → $5 → 💥 Destroyed
+$100 → $95 → $90 → $85 → ... → $10 → $5 → Destroyed
 ```
 
 The idea is intentionally inspired by the temporary value mechanic of **Ice Cream**, but instead of losing Chips, **Monopoly Guy burns through its cash value**.
 
 ---
 
-## ✨ Features
+## Features
 
-- 💵 Starts at **$100**.
-- 📉 Loses **$5** of value after each end-of-round payout.
-- 🔁 Pays out once per round.
-- 💥 Destroys itself after the `$5` payout.
-- 🚫 Not compatible with **Blueprint**.
-- 🚫 Not compatible with **Brainstorm**.
-- 🎩 Built as a custom Joker for Balatro using **Steamodded**.
-
----
-
-## 📸 Showcase
-
-### Joker artwork
-
-> **📌 Add the final Joker artwork here:**
-> `assets/monopoly_joker.png`
->
-> Replace the placeholder image above with the final Joker sprite/artwork once it is ready.
-
-### In-game screenshot
-
-> **📌 Add a gameplay screenshot here:**
-> `assets/screenshots/gameplay.png`
->
-> A good screenshot would show Monopoly Guy in a real run with the current `$` value visible.
-
-### GIF / short showcase
-
-> **📌 Optional:** Add a small GIF showing the Joker going from `$100 → $95 → $90...`.
->
-> Suggested path: `assets/screenshots/showcase.gif`
+- Starts at **$100**.
+- Loses **$5** of value after each end-of-round payout.
+- Pays out once per round.
+- Destroys itself after the `$5` payout.
+- It costs 8 of money
+- Not compatible with **Blueprint**.
+- Not compatible with **Brainstorm**.
+- Built as a custom Joker for Balatro using **Steamodded**.
 
 ---
 
-## 🎮 Installation
+## Gif Showcase
+<p align="left">
+  <img src="assets/showcase.gif" alt="Showcase" width="470">
+</p>
+
+---
+
+## Installation
 
 ### Requirements
 
-- **Balatro**
-- **Steamodded**
+- **Balatro v1.0.1o or newer**
+- **Steamodded v1.0.0-BETA-1501a or newer**
 
 ### Installation steps
 
@@ -103,32 +87,7 @@ Then move the resulting `monopoly-mod` folder into your Balatro `Mods` directory
 
 ---
 
-## ⚙️ Joker Stats
-
-| Stat | Value |
-|---|---:|
-| **Rarity** | 3 |
-| **Cost** | $8 |
-| **Starting value** | $100 |
-| **Round decrease** | $5 |
-| **Final payout** | $5 |
-| **Self-destructs** | Yes |
-| **Blueprint compatible** | No |
-| **Brainstorm compatible** | No |
-
----
-
-## 🧠 Design Philosophy
-
-Monopoly Guy is meant to create a different kind of economy decision:
-
-> **Do you spend the money now, knowing the Joker will keep paying you later, or build around the temporary cash injection while you still have it?**
-
-The Joker gives a large early payout, but it is deliberately finite. Every round pushes it closer to disappearing, making its value predictable while keeping the run's economy moving.
-
----
-
-## 🛠️ Development
+## Development
 
 This mod is written in **Lua** and built for **Steamodded**.
 
@@ -142,32 +101,7 @@ This mod is written in **Lua** and built for **Steamodded**.
 
 ---
 
-## 🗺️ Roadmap
-
-- [x] Core Joker mechanic
-- [x] Dynamic payout value in the Joker description
-- [x] Self-destruction at the end of its payout cycle
-- [x] Blueprint incompatibility
-- [x] Brainstorm incompatibility
-- [ ] Final Joker artwork
-- [ ] Gameplay screenshots
-- [ ] Showcase GIF
-- [ ] Public release polish
-- [ ] Explore submission to Balatro Mod Manager
-
----
-
-## 📦 Balatro Mod Manager
-
-This project is intended to be distributed as a public Balatro mod and may be submitted for inclusion in a compatible mod manager/catalog.
-
-**Current status:** `Not listed / submission pending`
-
-> If this mod gets accepted into a mod manager, this section can be updated with the official listing and installation instructions.
-
----
-
-## 🤝 Contributing
+## Contributing
 
 Suggestions, bug reports, balance ideas, and improvements are welcome.
 
@@ -181,7 +115,7 @@ When reporting an issue, please include:
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the **MIT License**.
 
@@ -191,7 +125,7 @@ See [`LICENSE`](LICENSE) for the full license text.
 
 ---
 
-## ❤️ Credits
+## Credits
 
 **Created by:** [Rodro-Dev](https://github.com/Rodro-Dev)
 
@@ -199,13 +133,6 @@ Special thanks to the Balatro and Steamodded modding communities.
 
 ---
 
-## ⭐ Support the Project
+## Support the Project
 
-If you enjoy the mod, consider giving the repository a **⭐ star** on GitHub. It helps the project get noticed and makes it easier for other players to find.
-
----
-
-<p align="center">
-  <strong>🎩 Monopoly Guy</strong><br>
-  <em>“The money doesn't last forever.”</em>
-</p>
+If you enjoy the mod, consider giving the repository a **⭐star** on GitHub. It helps the project get noticed and makes it easier for other players to find.
