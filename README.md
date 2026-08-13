@@ -1,7 +1,7 @@
 # 🎩 Monopoly Guy — Balatro Mod
 
 <p align="center">
-  <img src="assets/monopoly_joker.png" alt="Monopoly Guy Joker" width="180">
+  <img src="assets/2x/joker_image.png" alt="Monopoly Guy Joker" width="180">
 </p>
 
 <h3 align="center">A high-risk, high-reward money Joker for Balatro</h3>
