@@ -1,0 +1,9 @@
+{
+    "id": "monopoly_mod",
+    "name": "Monopoly Mod",
+    "author": ["Rodro-Dev"],
+    "description": "A good economy Joker",
+    "prefix": "rodrodev",
+    "main_file": "main.lua",
+    "version": "1.0.0"
+}
