@@ -9,8 +9,8 @@ SMODS.Joker {
             "for each Ante"
         }
     },
-    rarity = 1,
-    cost = 6,
+    rarity = 2,
+    cost = 8,
     unlocked = true,
     discovered = false,
     blueprint_compat = true,

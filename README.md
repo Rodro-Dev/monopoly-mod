@@ -67,7 +67,7 @@ The effect scales automatically as the Ante increases, making Pay Joker stronger
 - Starts at **C50** and **`$1`**.
 - The cards grant the values ​​of the joker
 - Increases its value for each Ante.
-- It costs 6 of money
+- It costs 8 of money
 - Compatible with **Blueprint**.
 - Not compatible with **Brainstorm**.
 
