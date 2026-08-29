@@ -1,5 +1,5 @@
 SMODS.Joker {
-    key = 'monopoly_joker',
+    key = 'monopoly_guy',
     loc_txt = {
         name = 'Monopoly Guy',
         text = {
@@ -9,17 +9,17 @@ SMODS.Joker {
         }
     },
     rarity = 3,
-    cost = 12,
+    cost = 25,
     unlocked = true,
     discovered = false,
     blueprint_compat = false,
     brainstorm_compat = false,
-    atlas = 'monopoly_joker',
-    pos = { x = 0, y = 0 },
+    atlas = 'monopoly_jokers',
+    pos = { x = 0, y = 0},
 
     config = {
         extra = {
-            dollars = 100,
+            dollars = 50,
             decrease = 5
         }
     },

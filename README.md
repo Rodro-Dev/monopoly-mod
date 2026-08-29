@@ -20,9 +20,9 @@
 
 ---
 
-## The Joker
+## The Jokers
 
-**Monopoly Guy** starts with a value of **$100**.
+**Monopoly Guy** starts with a value of **$50**.
 
 At the end of each round:
 
@@ -33,23 +33,47 @@ At the end of each round:
 ### Payout progression
 
 ```text
-$100 → $95 → $90 → $85 → ... → $10 → $5 → Destroyed
+$50 → $45 → ... → $10 → $5 → Destroyed
 ```
 
 The idea is intentionally inspired by the temporary value mechanic of **Ice Cream**, but instead of losing Chips, **Monopoly Guy burns through its cash value**.
 
 ---
 
+**Pay Joker** is a Common Joker that rewards you for every card you play.
+
+### Scaling by Ante
+
+| Ante | Chips per card | Money per card |
+| ---- | -------------- | -------------- |
+| 1    | +100           | +$1            |
+| 2    | +150           | +$2            |
+| 3    | +200           | +$3            |
+| 4    | +250           | +$4            |
+| 5    | +300           | +$5            |
+
+The effect scales automatically as the Ante increases, making Pay Joker stronger throughout the run.
+
+---
+
 ## Features
 
-- Starts at **$100**.
+### First Joker
+- Starts at **`$50`**.
 - Loses **$5** of value after each end-of-round payout.
 - Pays out once per round.
 - Destroys itself after the `$5` payout.
-- It costs 8 of money
+- It costs 25 of money
 - Not compatible with **Blueprint**.
 - Not compatible with **Brainstorm**.
-- Built as a custom Joker for Balatro using **Steamodded**.
+
+### Second Joker
+- Starts at **C50** and **`$1`**.
+- The cards grant the values ​​of the joker
+- Increases its value for each Ante.
+- It costs 6 of money
+- Compatible with **Blueprint**.
+- Not compatible with **Brainstorm**.
 
 ---
 
@@ -69,6 +93,10 @@ The idea is intentionally inspired by the temporary value mechanic of **Ice Crea
 
 ### Installation steps
 
+0. Browse it in Balatro Mod Manager as Monopoly Mod an download.
+
+#### Other form
+
 1. Install **Steamodded** for your Balatro version.
 2. Download or clone this repository.
 3. Place the mod folder inside your Balatro `Mods` directory.
@@ -84,20 +112,6 @@ git clone https://github.com/Rodro-Dev/monopoly-mod.git
 Then move the resulting `monopoly-mod` folder into your Balatro `Mods` directory.
 
 > **Note:** Installation paths can vary depending on your operating system and Balatro setup.
-
----
-
-## Development
-
-This mod is written in **Lua** and built for **Steamodded**.
-
-### Current implementation
-
-- Dynamic Joker description showing its current payout.
-- End-of-round cash payout.
-- `$5` value reduction after each payout.
-- Automatic self-destruction at `$0`.
-- Explicit incompatibility with Blueprint and Brainstorm.
 
 ---
 
