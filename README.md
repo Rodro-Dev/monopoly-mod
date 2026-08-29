@@ -1,13 +1,11 @@
 # Monopoly Guy — Balatro Mod
 
 <p align="center">
-  <img src="assets/2x/joker_image.png" alt="Monopoly Guy Joker" width="180">
+  <img src="assets/2x/joker_atlas.png" alt="Monopoly Jokers" width="180">
 </p>
 
-<h3 align="center">A high-risk, high-reward money Joker for Balatro</h3>
-
 <p align="center">
-  <strong>Start rich. Get paid every round. Watch the value disappear.</strong>
+  <strong>The only true, financially powerful jokers for your rounds.</strong>
 </p>
 
 <p align="center">
@@ -15,8 +13,6 @@
   <img src="https://img.shields.io/badge/Steamodded-Required-4B5563?style=for-the-badge" alt="Steamodded Required">
   <img src="https://img.shields.io/badge/Status-Playable-2EA043?style=for-the-badge" alt="Playable">
 </p>
-
-> **Monopoly Guy** is a custom Balatro Joker built around a simple idea: **turn money into a temporary resource**. It starts with a huge payout, but every round its value drops by `$5` until it reaches `$0` and destroys itself.
 
 ---
 
@@ -80,6 +76,7 @@ The effect scales automatically as the Ante increases, making Pay Joker stronger
 ## Gif Showcase
 <p align="left">
   <img src="assets/showcase.gif" alt="Showcase" width="470">
+  <img src="assets/showcase2.gif" alt="Showcase2" width="470">
 </p>
 
 ---
