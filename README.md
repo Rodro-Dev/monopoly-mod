@@ -51,6 +51,34 @@ The idea is intentionally inspired by the temporary value mechanic of **Ice Crea
 The effect scales automatically as the Ante increases, making Pay Joker stronger throughout the run.
 
 ---
+## The Decks
+
+### Stonks Deck
+
+> **"The market only goes up."**
+
+The **Stonks Deck** is a high-risk, high-reward deck built around money and scaling power. It gives you a strong economic start, but reduces your available hands.
+
+#### Starting Effects
+
+| Effect           |                  Value |
+| ---------------- | ---------------------: |
+| Starting Money   |                **$10** |
+| Starting Voucher |         **Seed Money** |
+| Starting Joker   |        **To the Moon** |
+| Joker Edition    | **Negative + Eternal** |
+| Starting Hands   |                 **-1** |
+
+#### Starting Joker
+
+The deck begins with **To the Moon** already in your Joker area.
+
+**To the Moon**
+
+* **Negative** — does not take up a Joker slot.
+* **Eternal** — cannot be sold or destroyed normally.
+
+---
 
 ## Features
 
@@ -77,6 +105,7 @@ The effect scales automatically as the Ante increases, making Pay Joker stronger
 <p align="left">
   <img src="assets/showcase.gif" alt="Showcase" width="470">
   <img src="assets/showcase2.gif" alt="Showcase2" width="470">
+  <img src="assets/showcase3.gif" alt="Showcase3" width="470">
 </p>
 
 ---
