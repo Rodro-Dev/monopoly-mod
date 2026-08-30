@@ -3,7 +3,7 @@
     "name": "Monopoly Mod",
     "display_name": "Monopoly Mod",
     "author": ["Rodro-Dev"],
-    "description": "A good economy Mod",
+    "description": "A finance-focused Balatro mod built around money and scaling power.\n Adds unique Jokers like Monopoly Guy and Pay Joker.\n Includes the Stonks Deck, built for high-risk economic runs.\n🤑 Build your fortune, manage your cash, and make the market work for you!",
     "prefix": "mmod",
     "main_file": "main.lua",
     "priority": 999,

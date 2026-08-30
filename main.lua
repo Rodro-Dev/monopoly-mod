@@ -21,3 +21,5 @@ end
 SMODS.load_file("data/jokers/monopoly_guy.lua")()
 SMODS.load_file("data/jokers/pay_joker.lua")()
 SMODS.load_file("data/decks/stonks_deck.lua")()
+
+SMODS.load_file("ui/config.lua")()
