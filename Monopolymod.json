@@ -1,9 +1,14 @@
 {
     "id": "monopoly_mod",
     "name": "Monopoly Mod",
+    "display_name": "Monopoly Mod",
     "author": ["Rodro-Dev"],
     "description": "A good economy Mod",
-    "prefix": "rodrodev",
+    "prefix": "mmod",
     "main_file": "main.lua",
-    "version": "1.1.0"
+    "priority": 999,
+    "badge_colour": "f2bb63",
+    "badge_text_color": "f2bb63",
+    "version": "1.1.0",
+    "dependencies": ["Steamodded (>=1.0.0~BETA-1501a)","Balatro (>=1.0.1o)"]
 }
