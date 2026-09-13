@@ -36,7 +36,7 @@ The idea is intentionally inspired by the temporary value mechanic of **Ice Crea
 
 ---
 
-**Pay Joker** is a Common Joker that rewards you for every card you play.
+**Pay Joker** is a Uncommon Joker that rewards you for every card you play.
 
 ### Scaling by Ante
 
@@ -51,6 +51,23 @@ The idea is intentionally inspired by the temporary value mechanic of **Ice Crea
 The effect scales automatically as the Ante increases, making Pay Joker stronger throughout the run.
 
 ---
+
+**Cowboy Joker** increases in **X1.2** mult.
+
+For each **`$3`** that you have:
+
+1. It increases in **X1.2** mult.
+
+### Xmult progression
+
+```text
+$3 → X1.2 → ... → $15 → X2.0 → ...
+```
+
+The idea is only reward you for have a **good economy**.
+
+---
+
 ## The Decks
 
 ### Stonks Deck
@@ -98,6 +115,13 @@ The deck begins with **To the Moon** already in your Joker area.
 - It costs 8 of money
 - Compatible with **Blueprint**.
 - Not compatible with **Brainstorm**.
+
+### Third Joker
+- Starts at **X1** of Xmult.
+- Increases its value in **X1.2** for each **`$3`**.
+- It costs 6 of money
+- Compatible with **Blueprint**.
+- Compatible with **Brainstorm**.
 
 ---
 
