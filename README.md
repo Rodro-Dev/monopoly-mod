@@ -1,4 +1,4 @@
-# Monopoly Guy — Balatro Mod
+# Monopoly Mod - Balatro
 
 <p align="center">
   <img src="assets/2x/joker_atlas.png" alt="Monopoly Jokers" width="180">
@@ -139,7 +139,7 @@ The deck begins with **To the Moon** already in your Joker area.
 ### Requirements
 
 - **Balatro v1.0.1o or newer**
-- **Steamodded v1.0.0-BETA-1501a or newer**
+- **Steamodded v1.0.0-BETA-1814a or newer**
 
 ### Installation steps
 
