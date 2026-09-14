@@ -15,7 +15,7 @@ SMODS.Blind {
         y = 0
     },
     boss = {
-        min = 1
+        min = 4
     },
     dollars = 8,
     boss_colour = HEX("70b133"),

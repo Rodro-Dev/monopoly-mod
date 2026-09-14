@@ -42,13 +42,14 @@ The idea is intentionally inspired by the temporary value mechanic of **Ice Crea
 
 | Ante | Chips per card | Money per card |
 | ---- | -------------- | -------------- |
-| 1    | +100           | +$1            |
-| 2    | +150           | +$2            |
-| 3    | +200           | +$3            |
-| 4    | +250           | +$4            |
-| 5    | +300           | +$5            |
+| 1    | +20            | +$1            |
+| 2    | +30            | +$2            |
+| 3    | +40            | +$3            |
+| 4    | +50            | +$4            |
+| 5    | +60            | +$5            |
 
 The effect scales automatically as the Ante increases, making Pay Joker stronger throughout the run.
+> Warning: You will only receive the Joker's money for each card with a 1-in-3 probability.
 
 ---
 
@@ -104,24 +105,29 @@ The deck begins with **To the Moon** already in your Joker area.
 - Loses **$5** of value after each end-of-round payout.
 - Pays out once per round.
 - Destroys itself after the `$5` payout.
-- It costs 25 of money
+- It costs 25 of money.
 - Not compatible with **Blueprint**.
 - Not compatible with **Brainstorm**.
 
 ### Second Joker
 - Starts at **C50** and **`$1`**.
-- The cards grant the values ​​of the joker
+- Money for each card with a 1-in-3 probability.
 - Increases its value for each Ante.
-- It costs 8 of money
+- It costs 8 of money.
 - Compatible with **Blueprint**.
 - Not compatible with **Brainstorm**.
 
 ### Third Joker
 - Starts at **X1** of Xmult.
-- Increases its value in **X1.2** for each **`$3`**.
-- It costs 6 of money
+- Increases its value in **X1.2** for each **`$4`**.
+- It costs 6 of money.
 - Compatible with **Blueprint**.
 - Compatible with **Brainstorm**.
+
+### The Greed
+- Appear in Ante >= 4.
+- Divide Multe by Money.
+- It reward with 8 of money.
 
 ---
 

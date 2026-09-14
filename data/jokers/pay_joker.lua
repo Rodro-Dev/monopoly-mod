@@ -4,9 +4,10 @@ SMODS.Joker {
         name = "Pay Joker",
         text = {
             "Each card played gives",
-            "{C:chips}+#1#{} Chips and {C:money}+$#2#{}",
-            "Increases by {C:chips}+50{} Chips and {C:money}+$1{}",
-            "for each Ante"
+            "{C:chips}+#1#{} Chips".
+            "And {C:money}+$#2#{} {C:green}{1 in 3}",
+            "Increases by {C:chips}+10{} Chips for each Ante",
+            "And {C:money}+$1{} for each Ante"
         }
     },
     rarity = 2,
@@ -21,7 +22,7 @@ SMODS.Joker {
     loc_vars = function(self, info_queue, card)
         local ante = G.GAME and G.GAME.round_resets and G.GAME.round_resets.ante or 1
 
-        local chips = 100 + (50 * (ante - 1))
+        local chips = 20 + (10 * (ante - 1))
         local dollars = 1 + (ante - 1)
 
         return {
@@ -37,13 +38,15 @@ SMODS.Joker {
         and context.cardarea == G.play then
             local ante = G.GAME and G.GAME.round_resets and G.GAME.round_resets.ante or 1
 
-            local chips = 100 + (50 * (ante - 1))
+            local chips = 20 + (10 * (ante - 1))
             local dollars = 1 + (ante - 1)
 
             return {
-                chips = chips,
-                dollars = dollars
+                chips = chips
             }
+            if pseudorandom('pay_joker') < (1 / 3) then
+                return {dollars = dollars}
+            end
         end
     end
 }

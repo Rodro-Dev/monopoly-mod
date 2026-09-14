@@ -5,7 +5,7 @@ SMODS.Joker {
         name = 'Cowboy',
         text = {
             'Gains {X:mult,C:white}X1.2{} Mult',
-            'for every {C:money}$3{} you have',
+            'for every {C:money}$4{} you have',
             'when scoring',
             '{C:grey}(Currently:{} {X:mult,C:white}X#1#{} {C:grey}Mult){}'
         }
@@ -22,7 +22,7 @@ SMODS.Joker {
 
     loc_vars = function(self, info_queue, card)
         local money = G.GAME and G.GAME.dollars or 0
-        local increments = math.floor(math.max(money, 0) / 3)
+        local increments = math.floor(math.max(money, 0) / 4)
         local current_xmult = 1 + (increments * 0.2)
 
         return {
@@ -35,7 +35,7 @@ SMODS.Joker {
     calculate = function(self, card, context)
         if context.joker_main then
             local money = G.GAME.dollars or 0
-            local increments = math.floor(math.max(money, 0) / 3)
+            local increments = math.floor(math.max(money, 0) / 4)
             local xmult = 1 + (increments * 0.2)
 
             return {
