@@ -6,6 +6,12 @@ if SMODS.Atlas then
         py = 95
     })
     SMODS.Atlas({
+        key = "pay_Joker",
+        path = "pay_joker_atlas.png",
+        px = 71,
+        py = 95
+    })
+    SMODS.Atlas({
         key = "atlas_deck",
         path = "deck_image.png",
         px = 71,
@@ -28,9 +34,10 @@ if SMODS.Atlas then
         py = 34
     })
 end
+SMODS.load_file("data/jokers/cowboy_joker.lua")()
 SMODS.load_file("data/jokers/monopoly_guy.lua")()
 SMODS.load_file("data/jokers/pay_joker.lua")()
-SMODS.load_file("data/jokers/cowboy_joker.lua")()
+
 
 SMODS.load_file("data/blinds/the_greed.lua")()
 SMODS.load_file("data/decks/stonks_deck.lua")()

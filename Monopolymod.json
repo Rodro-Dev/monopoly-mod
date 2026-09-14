@@ -6,9 +6,9 @@
     "description": "A finance-focused Balatro mod built around money and scaling power.\n Adds unique Jokers like Monopoly Guy and Pay Joker.\n Includes the Stonks Deck, built for high-risk economic runs.\n🤑 Build your fortune, manage your cash, and make the market work for you!",
     "prefix": "mmod",
     "main_file": "main.lua",
-    "priority": 6767,
+    "priority": -67,
     "badge_colour": "f2bb63",
     "badge_text_color": "f2bb63",
-    "version": "1.3.1",
+    "version": "1.3.3",
     "dependencies": ["Steamodded (>=1.0.0~BETA-1814a)","Balatro (>=1.0.1o)"]
 }

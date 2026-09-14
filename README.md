@@ -113,7 +113,7 @@ The deck begins with **To the Moon** already in your Joker area.
 - Starts at **C50** and **`$1`**.
 - Money for each card with a 1-in-3 probability.
 - Increases its value for each Ante.
-- It costs 8 of money.
+- It costs 6 of money.
 - Compatible with **Blueprint**.
 - Not compatible with **Brainstorm**.
 
