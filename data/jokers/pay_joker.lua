@@ -22,7 +22,7 @@ SMODS.Joker{ --Pay Joker
         }
     },
     pos = {
-        x = 0,
+        x = 1,
         y = 0
     },
     display_size = {
@@ -36,11 +36,7 @@ SMODS.Joker{ --Pay Joker
     perishable_compat = true,
     unlocked = true,
     discovered = false,
-    atlas = 'pay_Joker',
-    soul_pos = {
-        x = 1,
-        y = 0
-    },
+    atlas = 'atlas_jokers',
     
     loc_vars = function(self, info_queue, card)
         

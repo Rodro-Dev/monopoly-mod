@@ -17,7 +17,7 @@ SMODS.Joker {
     discovered = false,
     blueprint_compat = true,
     brainstorm_compat = true,
-    atlas = 'monopoly_jokers',
+    atlas = 'atlas_jokers',
     pos = { x = 2, y = 0 },
 
     loc_vars = function(self, info_queue, card)

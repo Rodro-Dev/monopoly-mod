@@ -100,7 +100,7 @@ The deck begins with **To the Moon** already in your Joker area.
 
 ## Features
 
-### First Joker
+### Monopoly Guy
 - Starts at **`$50`**.
 - Loses **$5** of value after each end-of-round payout.
 - Pays out once per round.
@@ -109,7 +109,7 @@ The deck begins with **To the Moon** already in your Joker area.
 - Not compatible with **Blueprint**.
 - Not compatible with **Brainstorm**.
 
-### Second Joker
+### Pay Joker
 - Starts at **C50** and **`$1`**.
 - Money for each card with a 1-in-3 probability.
 - Increases its value for each Ante.
@@ -117,17 +117,23 @@ The deck begins with **To the Moon** already in your Joker area.
 - Compatible with **Blueprint**.
 - Not compatible with **Brainstorm**.
 
-### Third Joker
+### Cowboy Joker
 - Starts at **X1** of Xmult.
 - Increases its value in **X1.2** for each **`$4`**.
 - It costs 6 of money.
 - Compatible with **Blueprint**.
 - Compatible with **Brainstorm**.
 
+### Park Place
+- Reward you with **`$3`** for each `Joker`.
+- It costs 4 of money.
+- Compatible with **Blueprint**.
+- Compatible with **Brainstorm**.
+
 ### The Greed
-- Appear in Ante >= 4.
-- Divide Multe by Money.
-- It reward with 8 of money.
+- Appear in Ante >= `4`.
+- Divide **Mult** by **Money**.
+- It reward with **`$8`** of money.
 
 ---
 

@@ -14,7 +14,7 @@ SMODS.Joker {
     discovered = false,
     blueprint_compat = false,
     brainstorm_compat = false,
-    atlas = 'monopoly_jokers',
+    atlas = 'atlas_jokers',
     pos = { x = 0, y = 0},
 
     config = {
